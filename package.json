@@ -1,0 +1,45 @@
+{
+  "name": "kill8ug-wechat-robot",
+  "version": "0.1.0",
+  "description": "test",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chatie/wechaty-getting-started.git"
+  },
+  "keywords": [],
+  "author": "Huan LI <zixia@zixia.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chatie/wechaty-getting-started/issues"
+  },
+  "homepage": "https://github.com/Chatie/wechaty-getting-started#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "blob": "^0.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "extend": ">=2.0.2",
+    "fs": "0.0.1-security",
+    "javascript-state-machine": "^3.1.0",
+    "kue": "^0.11.6",
+    "mem": ">=4.0.0",
+    "mysql": "^2.15.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.0",
+    "rocksdb": "^4.1.0",
+    "simple-git": "^1.129.0",
+    "wechaty": "^0.29.41",
+    "wechaty-puppet-padplus": "0.0.140",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "check-node-version": "^3.2.0"
+  }
+}
