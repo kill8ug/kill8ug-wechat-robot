@@ -4,12 +4,11 @@ var fs=require("fs");
 const { FileBox } = require("wechaty")
 const config = require("./config")
 
-module.exports = function removeWaterMark(url,bot) {
-
+module.exports = async function removeWaterMark(bot,msg) {
+    var url = msg.text();
     if(!url||url.indexOf("v.douyin.com")==-1){
         return;
     }
-
     function decodeHttpUrl(url){
         var start = url.indexOf("http");
         var end = url.lastIndexOf("/");
@@ -48,11 +47,11 @@ module.exports = function removeWaterMark(url,bot) {
                     console.log('finish')
                     const fileBox3 = FileBox.fromFile(savePath)
                     bot.say(fileBox3)
+                    return true;
                 })
                 writer.on('error', () => {
                     console.log('error')
                 })
-                return;
             }).catch(function (error) {
                 console.log(error)
             });

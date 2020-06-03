@@ -3,19 +3,17 @@ module.exports = {
   // puppet_padplus Token
   token: "",
   // 机器人名字
-  name: "圈子",
-  // 房间/群聊
+  name: "消灭八阿哥",
+  // 抖音去水印临时模板
   videoBasePath: "/Users/lixin/Desktop/",
-  room: {
-    // 管理群组列表
-    roomList: {
-      // 群名(用于展示，最好是群名，可随意) : 群id(这个可不能随意)
-      xx: "*****@chatroom",
-      aa: "*****@chatroom"
+  room:{
+    roomList:{
+        抖音去水印:"18954519835@chatroom",
+        图片转文字:"18258009927@chatroom",
     },
-    // 加入房间回复
-    roomJoinReply: `\n 你好，欢迎你的加入，请自觉遵守群规则，文明交流`
+    roomJoinReply:"hello"
   },
+  cronReceive:"",
   // 私人
   personal: {
     // 好友验证自动通过关键字

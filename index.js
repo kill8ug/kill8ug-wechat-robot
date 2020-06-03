@@ -9,7 +9,7 @@ const onRoomJoin = require("./onRoomJoin") //入群
 const onRoomLeave = require("./onRoomLeave") //离开群
 const onRoomTopic = require("./onRoomTopic") //群话题
 const onRoomInvite = require("./onRoomInvite") //群邀请
-const onStart = require("./onStart") //群邀请
+const onStart = require("./onStart")
 const config = require("./config")
 
 const puppet = new PuppetPadplus({
@@ -44,5 +44,4 @@ bot.start()
     })
 .catch(e => console.error(e));
 
-console.log("hello.....")
 
