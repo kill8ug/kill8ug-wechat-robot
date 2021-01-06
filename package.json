@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Chatie/wechaty-getting-started#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "baidu-aip-sdk": "^2.4.6",
     "blob": "^0.1.0",
     "cheerio": "^1.0.0-rc.3",
